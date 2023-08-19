@@ -1,0 +1,121 @@
+.Technology{
+    background-image: url(../images/background-technology-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    
+}
+.parent_technology{
+    /* border: 2px solid rgb(255, 255, 255); */
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.technology_navbar{
+     /* border: 2px solid rgb(220, 184, 0); */
+     width: 20vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.technology_navbar ul{
+    /* border: 2px solid red; */
+    width: 9vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    gap: 2vw;
+}
+.technology_navbar li{
+    list-style: none;
+}
+.technology_navbar a{
+    border: 2px solid #111a44;
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#0B0D17;
+    color: rgb(255, 255, 255);
+    
+text-align: center;
+font-family: Bellefair;
+font-size: 2vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.technology_navbar a:hover{
+    background-color: #FFF;
+    color: #0B0D17;
+}
+
+.tech_change{
+    /* border: 2px solid red; */
+    width: 80vw;
+    display: flex;
+    align-items: center;
+   
+
+}
+.techcontent{
+    /* border: 2px solid rgb(16, 16, 255); */
+    width: 80vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.techabout{
+    /* border: 2px solid rgb(0, 255, 64); */
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    padding-top: 1%;
+    gap: 0.8vw;
+    flex-direction: column;
+    justify-content: center;
+}
+.techdomain{
+    /* border: 2px solid white; */
+    color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.7px;
+}
+.techName{
+    /* border: 2px solid white; */
+    color: #FFF;
+font-family: Bellefair;
+font-size: 4.1vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.techinfo{
+    /* border: 2px solid white; */
+    color: #D0D6F9;
+font-family: Barlow;
+font-size: 1.4vw;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+.techcontent img{
+    height: 35vw;
+    width: 30vw;
+}

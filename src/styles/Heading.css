@@ -1,0 +1,37 @@
+.Heading {
+    display: flex;
+    margin-top: 2.3vw;
+    width: 60%;
+    margin-left: 10%;
+    align-items: center;
+    gap: 1vw;
+  }
+  
+  .number {
+    height: 2.5vh;
+    color: red;
+    display: flex;
+    align-items: center;
+    color: #8b8b8b;
+    font-family: Barlow Condensed;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  
+  .title {
+    height: 2.5vh;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  

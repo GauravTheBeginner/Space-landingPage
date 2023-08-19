@@ -1,0 +1,178 @@
+.Destination {
+  background-image: url(../images/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+}
+.destination_navbar {
+  /* border: 2px solid rgb(255, 255, 255); */
+  color: white;
+  margin-top: 0.7vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.destination_navbar ul {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 30vw;
+  height: 3vw;
+  
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin-right: 5vw;
+}
+.destination_navbar li {
+  list-style: none;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-right: 3vw;
+  letter-spacing: 2.7px;
+}
+.destination_navbar a{
+  text-decoration: none;
+  color: #FFF;
+  position: relative;
+  transition: color 0.3s;
+}
+.destination_navbar a:hover{
+  color: rgb(255, 255, 255);
+}
+.destination_navbar A::before{
+  content: "";
+  position: absolute;
+  top: 2vw;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff; 
+  transition: width 0.6s;
+}
+.destination_navbar a:hover::before{
+  width: 100%;
+}
+.destination_change {
+  /* border: 2px solid white; */
+  height: 35vw;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5vw;
+  
+}
+.content img {
+  /* border: 2px solid red; */
+  height: 30vw;
+  width: 30vw;
+  margin-left: 15vw;
+}
+
+.about {
+  /* border: 2px solid blue; */
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1vw;
+  /* margin-left: 5vw; */
+  
+}
+.planet_name{
+    /* border: 2px solid red; */
+    width: 30vw;
+    color: #FFF;
+    font-family: 'Bellefair', serif;
+font-size: 8vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.planet_about{
+  width: 33vw;
+    /* border: 2px solid white; */
+    color: #D0D6F9;
+font-family: Barlow;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 400;
+line-height: 2vw; 
+}
+.planet_distance{
+    border: 1px solid gray;
+    height: 9vw;
+    width: 34vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-right: none;          
+    border-bottom: none;         
+    border-left: none; 
+}
+.distanceBox{
+  /* border: 2px solid red; */
+  height: 7vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.distanceTime{
+  /* border: 2px solid rgb(255, 255, 255); */
+  height: 7vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.avgtime{
+  color: #D0D6F9;
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+}
+.time{
+  color: #FFF;
+font-family: Bellefair;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+
+
+}
+.avgdistance{
+  color: #D0D6F9;
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+}
+.km{
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
