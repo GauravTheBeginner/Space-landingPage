@@ -48,7 +48,7 @@ const Destination = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.8}}
+            transition={{ duration: 1.8 }}
           >
             <img src={moon} alt="" />
             <div className="about">
@@ -78,7 +78,7 @@ const Destination = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.8}}
+            transition={{ duration: 1.8 }}
           >
             <img src={mars} alt="" />
             <div className="about">
@@ -107,7 +107,7 @@ const Destination = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.8}}
+            transition={{ duration: 1.8 }}
           >
             <img src={europa} alt="" />
             <div className="about">
@@ -137,7 +137,7 @@ const Destination = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.8}}
+            transition={{ duration: 1.8 }}
           >
             <img src={titan} alt="" />
             <div className="about">
