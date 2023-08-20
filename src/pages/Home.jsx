@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Home.css";
 import { motion } from "framer-motion"; 
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -30,7 +31,9 @@ function Home() {
           whileHover={{ scale: 1.2 }} 
           whileTap={{ scale: 0.9 }}   
         >
-          EXPLORE
+          
+            <Link to="/destination">EXPLORE</Link>
+          
         </motion.div>
       </div>
     </motion.div>

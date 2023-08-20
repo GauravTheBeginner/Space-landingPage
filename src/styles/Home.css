@@ -63,7 +63,7 @@
 }
 
 .explore_logo {
-  
+  list-style: none;
   width: 15vw;
   height: 15vw;
   display: flex;
@@ -75,6 +75,10 @@
   font-family: Bellefair;
   font-size: 2vw;
   font-weight: 400;
+}
+.explore_logo a{
+  text-decoration: none;
+  color: #0B0D17; 
 }
 @media (max-width: 768px) {
     .parent_home {
